@@ -51,3 +51,14 @@ public string Salario{
    set{salario = value;}
 }
 }
+
+public class Diretor: Funcionario{
+   //Construtor da Classe
+   public Diretor(string nome, int idade, string cpf, double salario):base(nome, idade, cpf, salario){
+
+   }
+   //Sobreescrevendo o método Bonus para adicionar 1000 ao bônus
+   Public override double Bonus{
+       return base.Bonus() +1000; //Bônus
+   }
+}
