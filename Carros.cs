@@ -78,8 +78,5 @@ Console.WriteLine($"Nome:{ferrari.Nome}, Cor:{ferrari.Cor},Idade:{ferrari.Idade}
   }
   
   
+
   
-  
-  
-  
-  }
