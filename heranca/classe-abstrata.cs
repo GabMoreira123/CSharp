@@ -110,7 +110,7 @@ class Program
         guardiao.Atacar();
         ((Guardiao)guardiao).AspectoFlamejante(); // método específico de Guardião
 
-        feiticeira.Atacar();
+        feiticeira.Atacar();        
         ((Feiticeira)feiticeira).Escudo(); // método específico de Feiticeira
 
         duende.Atacar();
